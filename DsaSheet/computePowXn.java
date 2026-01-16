@@ -14,7 +14,7 @@ class computePowXn{
     // }
         //OPTIMISED APPROACH
     public static double computePow(double x, int n){
-        double ans = 1;
+        double ans;
         if(n == 0){
             return 1;
         }
