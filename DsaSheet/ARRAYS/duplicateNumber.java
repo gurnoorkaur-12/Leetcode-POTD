@@ -41,8 +41,7 @@ class duplicateNumber{
         while (slow != fast){
             slow = nums[slow];
             fast = nums[fast];
-        };
-
+        }
         return slow;
     }
 
