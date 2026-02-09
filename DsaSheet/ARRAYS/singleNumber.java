@@ -1,5 +1,3 @@
-
-
 class singleNumber{
     // Brute force approach
     // public int singleNumber(int[] nums){
@@ -39,6 +37,7 @@ class singleNumber{
     }  
 
     public static void main(String[] args) {
+        //Leetcode - 136
         //Brute force approach T.C = O(n^2) S.C = O(1)=>Nested loops
         //Better approach T.C = O(n) S.C = O(n)=>hashmap
         //Best approach T.C = O(n) S.C = O(1);=>bitwise operator
